@@ -1,31 +1,6 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Author: AtypicalThemes
-Template: Strider - A Game Studio Template
-Version:	1.0
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
--------------------------------------------------------------------
-Table of contents
-
-    I.General
-    II.Page Prealoader
-    III.Header & Navigation
-    IV.Hero Section
-    V.About Section
-    VI.Games Section
-    VII.Team Section
-    VIII.Careers Section
-    IX.Contact Section
-    X.Footer
-    XI.404 Page
-    XII.Responsive Styles
-
--------------------------------------------------------------------
 [Color codes]
 
 Background:	#111; (black)
@@ -42,14 +17,14 @@ a (active):	#E48632;
 Primary Color: #E48632;
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
 @font-face {
     font-family: 'Anurati';
     src: url('../fonts/Anurati-Regular.otf');
 }
 
-/* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
+/* --------------------------- /////////// GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
     color: #E48632;
@@ -246,7 +221,7 @@ button {
 	background: #FFF;
 	color: #2B2B2B;
 }
-/* --------------------------- /////////// II. PAGE PRELOADER /////////// --------------------------- */
+/* --------------------------- /////////// PAGE PRELOADER /////////// --------------------------- */
 /* -Loading Screen- */
 #loader-wrapper {
     background: #111;
@@ -295,7 +270,7 @@ button {
     transition: all 0.5s ease;
 }
 
-/* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
+/* --------------------------- /////////// HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
     font-family: Anurati, sans-serif;
     font-size: 1.75rem; /* 28px */;
@@ -376,7 +351,7 @@ button {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
+/* --------------------------- /////////// HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
     background-color: #111;
@@ -410,11 +385,11 @@ button {
     font-family: Raleway, sans-serif;
 }
 
-/* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
+/* --------------------------- /////////// ABOUT SECTION /////////// --------------------------- */
 #support-image {
     margin: 0 0 0 20%;
 }
-/* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
+/* --------------------------- /////////// GAMES SECTION /////////// --------------------------- */
 .game-tags {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px;
@@ -633,7 +608,7 @@ button {
 .rating p {
     font-size: 1.5rem;
 }
-/* --------------------------- /////////// VII. TEAM SECTION /////////// --------------------------- */
+/* --------------------------- /////////// TEAM SECTION /////////// --------------------------- */
 #full-row {
     width: 100%;
 }
@@ -721,7 +696,7 @@ transition: 1s ease;
     width: 100%;
     border: none;
 }
-/* --------------------------- /////////// VIII. CAREERS SECTION /////////// --------------------------- */
+/* --------------------------- /////////// CAREERS SECTION /////////// --------------------------- */
 .job-card {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
@@ -783,7 +758,7 @@ transition: 1s ease;
     height: 43px;
     width: auto;
 }
-/* --------------------------- /////////// IX. CONTACT SECTION /////////// --------------------------- */
+/* --------------------------- /////////// CONTACT SECTION /////////// --------------------------- */
 #contactForm {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 5%;
@@ -842,7 +817,7 @@ transition: 1s ease;
     height: 330px;
     opacity: 0.9;
 }
-/* --------------------------- /////////// X. FOOTER /////////// --------------------------- */
+/* --------------------------- /////////// FOOTER /////////// --------------------------- */
 #footer {
     width: 100%;
     min-height: 70px;
@@ -870,7 +845,7 @@ transition: 1s ease;
 #copyright {
     float: left;
 }
-/* --------------------------- /////////// XI. 404 PAGE /////////// --------------------------- */
+/* --------------------------- /////////// 404 PAGE /////////// --------------------------- */
 #container-404 {
     position: absolute;
     top: 0;
@@ -889,7 +864,7 @@ transition: 1s ease;
     display: inline-block;
     text-decoration: none;
 }
-/* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
+/* --------------------------- /////////// RESPONSIVE STYLES /////////// --------------------------- */
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
     color: #E48632;

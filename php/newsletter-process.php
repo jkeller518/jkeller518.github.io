@@ -7,7 +7,7 @@ if (empty($_POST["emailsign"])) {
     $emailsign = $_POST["emailsign"];
 }
 
-$EmailTo = "yourdomain@example.com";
+$EmailTo = "jkeller@jahnelgroup.com";
 $Subject = "New Email SignUp From Strider";
 // prepare email body text
 $Body = "";

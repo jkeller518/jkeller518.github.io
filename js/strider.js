@@ -286,7 +286,7 @@ $(document).ready(function(){
         if (event.isDefaultPrevented()) {
             // handle the invalid form...
             signupError();
-            signupMSG(false, "Did you fill in the form properly?");
+            signupMSG(false, "Looks like we might be missing something...?");
         } else {
             // everything looks good!
             event.preventDefault();
